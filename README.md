@@ -8,7 +8,11 @@ CodingInSylens is an unique chilled theme with subtle colors, built for Visual S
 
 
 <h3>Personalization<h3>
-<p>If you want more <strong> customization </strong> download  <strong> CustomizeUI </strong> from visual studio code extension </p>
+<p> If you want more 
+  <strong> Customization </strong> download  
+  <strong> CustomizeUI </strong> 
+  from visual studio code extension 
+  </p>
 
 <pre> <code>"customizeUI.font.monospace": "Cascadia Code",
   "customizeUI.font.regular": "Cascadia Code",
