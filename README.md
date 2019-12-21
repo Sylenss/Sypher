@@ -2,7 +2,7 @@
 
 CodingInSylens is an unique chilled theme with subtle colors, built for Visual Studio Code.
 
-<img alt ="preview" src="images/WelcomePage.png" style="max-width=100%;" width="90%";
+<img src="images/WelcomePage.png" style="max-width=100%;" width="90%";>
 
 
 
