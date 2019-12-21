@@ -21,8 +21,8 @@ CodingInSylens is an unique chilled theme with subtle colors, built for Visual S
     ".tabs": "height: 22px !important",
     "[aria-label='Editor actions']": "display: none !important;",
   }, 
-  <code> 
-  <pre>
+  </code> 
+  </pre>
   
  <h2> License <h2>
 <a href="https://github.com/Sylenss/CodingInSylens-Theme"> Christina Clayton </a>
