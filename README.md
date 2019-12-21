@@ -9,9 +9,9 @@ CodingInSylens is an unique chilled theme with subtle colors, built for Visual S
 
 <h3>Personalization<h3>
 <p> If you want more 
-  <strong> Customization </strong>
+  Customization
   download  
-  <strong> CustomizeUI </strong> 
+  CustomizeUI  
   from visual studio code extension 
   </p>
 
