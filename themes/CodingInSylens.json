@@ -55,6 +55,7 @@
     "activityBarBadge.background": "#1b2229",
     "activityBarBadge.foreground": "#fcf998",
     "activityBar.activeBorder": "#fcf998",
+    "foreground": "#fcf998",
     "button.background": "#1b2229",
     "button.foreground": "#fcf998",
     "button.hoverBackground": "#787748",
@@ -63,7 +64,7 @@
     "dropdown.background": "#1b2229",
     "dropdown.foreground": "#fcf998",
     "dropdown.border": "#1b2229",
-    "dropdown.listBackground": "#fcf998",
+    "dropdown.listBackground": "#1b2229",
     "descriptionForeground": "#fcf998",
     "diffEditor.insertedTextBackground": "#fcf998",
     "diffEditor.insertedTextBorder": "#1b2229",
@@ -106,7 +107,6 @@
     "editorGutter.commentRangeForeground": "#fcf998",
     "editorGutter.deletedBackground": "#fcf998",
     "editorGutter.modifiedBackground": "#0c7d9d",
-    "foreground": "#fcf998",
     "input.placeholderForeground": "#a6a6a6",
     "list.activeSelectionBackground": "#1b2229",
     "list.activeSelectionForeground": "#fcf998",
@@ -133,8 +133,8 @@
     "scrollbar.shadow": "#fcf998",
     "scrollbarSlider.background": "#787748",
     "scrollbarSlider.hoverBackground": "#1b2229",
-    "settings.numberInputBackground": "#292929",
-    "settings.textInputBackground": "#292929",
+    "settings.numberInputBackground": "#1b2229",
+    "settings.textInputBackground": "#1b2229",
     "settings.textInputForeground": "#fcf998",
     "sideBar.background": "#1b2229",
     "sideBar.border": "#fcf998",
@@ -155,6 +155,7 @@
     "tab.inactiveBackground": "#1b2229",
     "panel.background": "#1b2229",
     "panel.border": "#fcf998",
+    "progressBar.background": "#1b2229",
     "pickerGroup.border": "#1b2229",
     "pickerGroup.foreground": "#fcf998",
     "gitDecoration.addedResourceForeground": "#81b88b",
@@ -193,7 +194,7 @@
     "terminal.background": "#1b2229",
   },
   "editor.tokenColorCustomizations": {
-    "comments": "#544268",
+    "comments": "#533872",
     "variables": "#537AFD",
     "keywords": "#53fd81",
     "strings": "#CFFD53",
@@ -743,7 +744,7 @@
       {
         "scope": "comment",
         "settings": {
-          "foreground": "#544268"
+          "foreground": "#533872"
         }
       },
       {
