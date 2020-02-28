@@ -78,7 +78,7 @@
     "editor.findMatchHighlightBorder": "#fcf998",
     "editor.inactiveSelectionBackground": "#3a3d41",
     "editor.lineHighlightBackground": "#1b2229",
-    "editor.rangeHighlightBackground": "#1b2229",
+    "editor.rangeHighlightBackground": "#1e2b3a",
     "editor.selectionBackground": "#1e2b3a",
     "editor.selectionHighlightBackground": "#43417d",
     "editorBracketMatch.background": "#1b2229",
@@ -176,22 +176,23 @@
     "panelTitle.activeForeground": "#fcf998",
     "panelTitle.inactiveForeground": "#787748",
     "terminal.ansiBlack": "#292A44",
-    "terminal.ansiBlue": "#2DE0A7",
+    "terminal.ansiBlue": "#297aff",
     "terminal.ansiBrightBlack": "#666699",
     "terminal.ansiBrightBlue": "#2DE0A7",
     "terminal.ansiBrightCyan": "#8EAEE0",
     "terminal.ansiBrightGreen": "#6DFEDF",
     "terminal.ansiBrightMagenta": "#7AA5FF",
-    "terminal.ansiBrightRed": "#A0A0C5",
+    "terminal.ansiBrightRed": "#53fd81",
     "terminal.ansiBrightWhite": "#53495D",
     "terminal.ansiBrightYellow": "#AE81FF",
     "terminal.ansiCyan": "#8EAEE0",
-    "terminal.ansiGreen": "#6DFEDF",
+    "terminal.ansiGreen": "#1ac4ff",
     "terminal.ansiMagenta": "#7AA5FF",
     "terminal.ansiRed": "#A0A0C5",
     "terminal.ansiWhite": "#F1EFF8",
     "terminal.ansiYellow": "#AE81FF",
     "terminal.background": "#1b2229",
+    "terminalCursor.foreground": "#297aff"
   },
   "editor.tokenColorCustomizations": {
     "comments": "#533872",
@@ -267,19 +268,19 @@
       {
         "scope": "entity.name.tag",
         "settings": {
-          "foreground": "#569cd6"
+          "foreground": "#297aff"
         }
       },
       {
         "scope": "entity.name.tag.css",
         "settings": {
-          "foreground": "#d7ba7d"
+          "foreground": "#297aff"
         }
       },
       {
         "scope": "entity.other.attribute-name",
         "settings": {
-          "foreground": "#9cdcfe"
+          "foreground": "#1ac4ff"
         }
       },
       {
@@ -295,7 +296,7 @@
           "entity.other.attribute-name.scss"
         ],
         "settings": {
-          "foreground": "#d7ba7d"
+          "foreground": "#297aff"
         }
       },
       {
@@ -853,19 +854,6 @@
   "explorer.decorations.colors": false,
   "explorer.enableDragAndDrop": false,
   "editor.multiCursorModifier": "alt",
-  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "javascript.format.insertSpaceAfterConstructor": true,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "typescript.format.insertSpaceAfterConstructor": true,
-  "typescript.format.insertSpaceAfterTypeAssertion": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "html.format.indentInnerHtml": true,
-  "html.format.indentHandlebars": true,
   // customizations
   "customizeUI.font.monospace": "Cascadia Code",
   "customizeUI.font.regular": "Cascadia Code",
@@ -877,5 +865,5 @@
     ".tabs-container .tab": "height: 18px !important",
     ".tabs": "height: 22px !important",
     "[aria-label='Editor actions']": "display: none !important;",
-  }
+  },
 }
