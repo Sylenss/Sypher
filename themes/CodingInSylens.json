@@ -195,7 +195,7 @@
   "editor.tokenColorCustomizations": {
     "comments": "#4c556a",
     "variables": "#4DC9EC",
-    "keywords": "#FD8A53",
+    "keywords": "#6477CE",
     "strings": "#79afb8",
     "numbers": "#6365d0",
     "functions": "#4AA488",
@@ -664,7 +664,10 @@
       },
       {
         "name": "CSS(Entity)",
-        "scope": ["entity.name.tag.css"],
+        "scope": [
+          "entity.name.tag.css",
+          "entity.other.attribute-name.class.css"
+        ],
         "settings": { "foreground": "#7E79B8" } // - 1
       },
       {
@@ -688,7 +691,10 @@
       },
       {
         "name": "CSS(Support Constant)",
-        "scope": ["support.constant.color.w3c-standard-color-name.css"],
+        "scope": [
+          "support.constant.color.w3c-standard-color-name.css",
+          "constant.other.color.rgb-value.hex.css"
+        ],
         "settings": { "foreground": "#6099D7" } // - 1
       },
       // Variables.
