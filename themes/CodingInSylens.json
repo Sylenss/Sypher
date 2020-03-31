@@ -361,6 +361,11 @@
         "settings": { "foreground": "#5f5a9f" }
       },
       {
+        "name": "Javascript Object Literals Key",
+        "scope": ["meta.object-literal.key.js"],
+        "settings": { "foreground": "#6ac770" }
+      },
+      {
         "name": "Javascript Meta Parameters",
         "scope": ["meta.parameters.js"],
         "settings": { "foreground": "#527596" }
@@ -713,6 +718,11 @@
         "name": "Variables",
         "scope": ["entity.name.variable.field.cs"],
         "settings": { "foreground": "#734cca" }
+      },
+      {
+        "name": "Variables",
+        "scope": ["entity.other.attribute-name.html"],
+        "settings": { "foreground": "#b07290" }
       },
       {
         "name": "Variables (local)",
