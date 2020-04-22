@@ -196,7 +196,7 @@
   },
   "editor.tokenColorCustomizations": {
     "comments": "#4c556a",
-    "variables": "#4DC9EC",
+    "variables": "#9c89ca",
     "keywords": "#6477CE",
     "strings": "#79afb8",
     "numbers": "#6365d0",
@@ -525,7 +525,7 @@
         "scope": [
           "source",
           "meta.body.function.definition.cpp",
-          "meta.function.definition.cpp"
+          "meta.function.definition.cpp",
         ],
         "settings": {
           "foreground": "#9c89ca"
@@ -661,7 +661,7 @@
           "keyword.other.remove"
         ],
         "settings": {
-          "foreground": "#68b0a2"
+          "foreground": "#4e67c9"
         }
       },
       {
