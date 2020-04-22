@@ -523,7 +523,9 @@
       {
         "name": "Source",
         "scope": [
-          "source"
+          "source",
+          "meta.body.function.definition.cpp",
+          "meta.function.definition.cpp"
         ],
         "settings": {
           "foreground": "#9c89ca"
