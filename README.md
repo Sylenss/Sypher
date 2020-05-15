@@ -6,6 +6,7 @@ CodingInSylens is an unique chilled theme with subtle colors, built for Visual S
 
 ![CodingInSylens](images/Code.png)
 
+![CodingInTime](images/CodeInTime.png)
 
 <h3>Personalization</h3>
 <p> If you want more 
