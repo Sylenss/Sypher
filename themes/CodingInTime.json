@@ -522,10 +522,21 @@
       {
         "name": "Source",
         "scope": [
-          "source"
+          "source",
+          "support.type",
+          "keyword.other.unit"
         ],
         "settings": {
           "foreground": "#6B9FC6"
+        }
+      },
+      {
+        "name": "Source",
+        "scope": [
+          "support.type"
+        ],
+        "settings": {
+          "foreground": "#5B7D96"
         }
       },
       {
