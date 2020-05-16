@@ -197,7 +197,7 @@
   "editor.tokenColorCustomizations": {
     "comments": "#4c556a",
     "variables": "#6B9FC6", //7F92A5
-    "keywords": "#BDD9E2", //A3B7CA //6790AE
+    "keywords": "#5B7D96", //A3B7CA //6790AE
     "strings": "#7F92A5",
     "numbers": "#6B9FC6", //6B9FC6
     "functions": "#6B9FC6",
@@ -221,7 +221,7 @@
           "punctuation.separator.dictionary"
         ],
         "settings": {
-          "foreground": "#6a6656"
+          "foreground": "#A0A0C5"
         } // "Variables" - 2
       },
       {
@@ -239,7 +239,7 @@
           "support.type.property-name punctuation"
         ],
         "settings": {
-          "foreground": "#585480"
+          "foreground": "#B6ACF0"
         } // "Variables" - 2
       },
       {
@@ -522,9 +522,7 @@
       {
         "name": "Source",
         "scope": [
-          "source",
-          "meta.body.function.definition.cpp",
-          "meta.function.definition.cpp",
+          "source"
         ],
         "settings": {
           "foreground": "#6B9FC6"
@@ -536,7 +534,7 @@
           "keyword.operator"
         ],
         "settings": {
-          "foreground": "#6790AE"
+          "foreground": "#8EACC6"
         }
       },
       {
@@ -590,6 +588,39 @@
         ],
         "settings": {
           "foreground": "#3e4958"
+        }
+      },
+      // C++.
+      {
+        "name": "Class Templates",
+        "scope": [
+          "entity.name.type.class.templated",
+          "variable.other.enummember",
+          "variable.other.event",
+          "entity.name.function",
+          "entity.name.label",
+          "variable.other.local",
+          "variable.other.property",
+          "entity.name.function.member",
+          "entity.name.namespace",
+          "keyword.operator.new",
+          "entity.name.function.operator",
+          "variable.parameter",
+          "entity.name.function.operator.member",
+          "variable.other.property.cli",
+          "entity.name.type.class.reference",
+          "entity.name.scope-resolution.cpp",
+          "variable.other.property.static",
+          "entity.name.function.member.static",
+          "entity.name.type.class.value",
+          "entity.name.scope-resolution.cpp",
+          "meta.body.function.definition.cpp",
+          "meta.function.definition.cpp",
+          "source.cpp",
+          "constant.character.escape"
+        ],
+        "settings": {
+          "foreground": "#6B9FC6"
         }
       },
       // Literals.
@@ -658,9 +689,6 @@
           "keyword.other.set",
           "keyword.other.add",
           "keyword.other.remove",
-          "keyword.other.unit.suffix.floating-point.cpp",
-          "keyword.other.unit.binary.cpp",
-          "keyword.other.unit.hexadecimal.cpp"
         ],
         "settings": {
           "foreground": "#6B9FC6"
@@ -707,7 +735,6 @@
         "name": "Entity Name Scope",
         "scope": [
           "entity.name.scope-resolution.cpp",
-          "keyword.control.return.cpp"
         ],
         "settings": {
           "foreground": "#74ABD4"
@@ -823,10 +850,12 @@
         "scope": [
           "keyword.control",
           "keyword.operator.conditional",
-          "keyword.query"
+          "keyword.query",
+          "keyword.control.if.cpp",
+          "keyword.control.else.cpp",
         ],
         "settings": {
-          "foreground": "#7F92A5" //6F8CA9
+          "foreground": "#8EACC6" //6F8CA9
         }
       },
       {
