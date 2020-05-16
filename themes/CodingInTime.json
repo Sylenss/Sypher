@@ -174,7 +174,7 @@
     "welcomePage.buttonBackground": "#1b2229",
     "panelTitle.activeBorder": "#1b2229",
     "panelTitle.activeForeground": "#BAD3E0",
-    "panelTitle.inactiveForeground": "#787748",
+    "panelTitle.inactiveForeground": "#B6ACF0",
     "terminal.ansiBlack": "#292A44",
     "terminal.ansiBlue": "#297aff",
     "terminal.ansiBrightBlack": "#666699",
@@ -628,7 +628,7 @@
           "meta.body.function.definition.cpp",
           "meta.function.definition.cpp",
           "source.cpp",
-          "constant.character.escape"
+          "constant.character.escape",
         ],
         "settings": {
           "foreground": "#6B9FC6"
@@ -763,7 +763,6 @@
       // Types.
       {
         "name": "Types",
-        "regions.attribute comment": "Including classes, delegates, enums, interfaces, structs.",
         "scope": [
           "storage.type.cs",
           "entity.name.type.type-parameter"
