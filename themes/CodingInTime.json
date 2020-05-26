@@ -58,7 +58,7 @@
     "foreground": "#B6ACF0",
     "button.background": "#1b2229",
     "button.foreground": "#B6ACF0",
-    "button.hoverBackground": "#B6ACF0",
+    "button.hoverBackground": "#1e2b3a",
     "badge.background": "#1b2229",
     "badge.foreground": "#B6ACF0",
     "dropdown.background": "#1b2229",
@@ -1028,11 +1028,11 @@
   "customizeUI.font.monospace": "JetBrainsMono-Regular",
   "customizeUI.font.regular": "JetBrainsMono-Regular",
   "customizeUI.fontSizeMap": {
-    "13px": "13px",
+    "13px": "14px",
     "monospace": "13px",
   },
   "customizeUI.stylesheet": {
-    ".tabs-container .tab": "height: 18px !important",
+    ".tabs-container .tab": "height: 20px !important",
     ".tabs": "height: 22px !important",
     "[aria-label='Editor actions']": "display: none !important;"
   }
