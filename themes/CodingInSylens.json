@@ -200,7 +200,7 @@
     "keywords": "#d1b24a",
     "strings": "#9e8b42",
     "numbers": "#e7e68e",
-    "functions": "#fec677",
+    "functions": "#d99b21",
     "textMateRules": [
       {
         "name": "Settings String Name",
@@ -233,7 +233,10 @@
       {
         "name": "User-Defined Literal - String",
         "scope": [
-          "entity.name.operator.custom-literal.string"
+          "entity.name.operator.custom-literal.string",
+          "keyword.other.typedef.c",
+          "storage.modifier.c",
+          "meta.preprocessor.macro.c"
         ],
         "settings": {
           "foreground": "#aaab6f"
@@ -256,6 +259,29 @@
         ],
         "settings": {
           "foreground": "#a77822"
+        }
+      },
+      {
+        "name": "Enumerator",
+        "scope": [
+          "variable.other.enummember",
+          "entity.name.function.preprocessor",
+          "punctuation.definition.parameters.begin.c",
+          "punctuation.definition.parameters.end.c",
+          "punctuation.section.parens.begin.bracket.round.c",
+          "punctuation.section.parens.end.bracket.round.c"
+        ],
+        "settings": {
+          "foreground": "#a77822"
+        }
+      },
+      {
+        "name": "SizeOf",
+        "scope": [
+          "keyword.operator.sizeof.c"
+        ],
+        "settings": {
+          "foreground": "#ed8b27"
         }
       },
       {
