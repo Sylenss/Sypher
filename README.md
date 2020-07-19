@@ -1,6 +1,6 @@
 # CodingInSylens-Theme
 
-CodingInSylens is an elegant equiment submarine theme, built for Visual Studio Code.
+CodingInSylens is an elegant equipment submarine theme, built for Visual Studio Code.
 
 
 ![WelcomePage](images/WelcomePage.png)
