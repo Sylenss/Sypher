@@ -176,23 +176,23 @@
     "panelTitle.activeForeground": "#fcf998",
     "panelTitle.inactiveForeground": "#787748",
     "terminal.ansiBlack": "#292A44",
-    "terminal.ansiBlue": "#297aff",
+    "terminal.ansiBlue": "#ed8b27",
     "terminal.ansiBrightBlack": "#666699",
-    "terminal.ansiBrightBlue": "#2DE0A7",
-    "terminal.ansiBrightCyan": "#8EAEE0",
+    "terminal.ansiBrightBlue": "#d1b24a",
+    "terminal.ansiBrightCyan": "#7f723c",
     "terminal.ansiBrightGreen": "#6DFEDF",
     "terminal.ansiBrightMagenta": "#7AA5FF",
-    "terminal.ansiBrightRed": "#53fd81",
+    "terminal.ansiBrightRed": "#7f723c",
     "terminal.ansiBrightWhite": "#53495D",
     "terminal.ansiBrightYellow": "#AE81FF",
-    "terminal.ansiCyan": "#8EAEE0",
+    "terminal.ansiCyan": "#d1b24a",
     "terminal.ansiGreen": "#1ac4ff",
     "terminal.ansiMagenta": "#7AA5FF",
     "terminal.ansiRed": "#A0A0C5",
     "terminal.ansiWhite": "#F1EFF8",
     "terminal.ansiYellow": "#AE81FF",
     "terminal.background": "#1b2229",
-    "terminalCursor.foreground": "#297aff"
+    "terminalCursor.foreground": "#9e8b42"
   },
   "editor.tokenColorCustomizations": {
     "comments": "#4c556a",
@@ -378,7 +378,7 @@
     ]
   },
   // other stuff
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "update.mode": "manual",
