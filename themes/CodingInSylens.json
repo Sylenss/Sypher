@@ -1,6 +1,15 @@
 {
     "name": "CodingInSylens",
     "author": "Christina Clayton",
+    // terminal
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.rendererType": "auto",
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.windowsEnableConpty": false,
+    "terminal.integrated.shellArgs.windows": ["-nologo"],
     // editor
     "editor.renderIndentGuides": false,
     "editor.lineNumbers": "interval",
@@ -8,14 +17,8 @@
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.wordWrap": "on",
-    "editor.fontFamily": "Jetbrains Mono",
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "Jetbrains Mono",
-    "terminal.integrated.drawBoldTextInBrightColors": true,
-    "terminal.integrated.windowsEnableConpty": false,
-    "terminal.integrated.rendererType": "canvas",
-    "terminal.integrated.cursorStyle": "block",
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 18,
     "editor.insertSpaces": true,
     "editor.cursorBlinking": "solid",
     "editor.rulers": [
@@ -25,6 +28,7 @@
     "editor.fontLigatures": true,
     "editor.codeLens": false,
     "editor.scrollBeyondLastLine": true,
+    "editor.semanticHighlighting.enabled": true,
     "editor.folding": false,
     "editor.formatOnSave": false,
     "editor.renderWhitespace": "none",
@@ -34,9 +38,12 @@
     "diffEditor.renderSideBySide": false,
     "editor.roundedSelection": false,
     "telemetry.enableCrashReporter": false,
+    // window
+    "window.menuBarVisibility": "toogle",
     // workbench
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.showIcons": false,
+    "workbench.editor.splitSizing": "split",
     "workbench.statusBar.visible": false,
     "workbench.iconTheme": null,
     "workbench.editor.tabSizing": "fit",
@@ -208,6 +215,23 @@
           ],
           "settings": {
             "foreground": "#7f723c"
+          }
+        },
+        {
+          "name": "Types",
+          "scope": [
+            "entity.name.type.class", //class names
+			    	"keyword", //import, export, return…
+				    "constant", //String, Number, Boolean…, this, super
+            "storage.modifier", //static keyword
+            "storage.type.js", //types keyword
+            "storage.type.class.js", //class keyword
+            "storage.type.function.js", //function keyword
+            "meta.definition.function.js", //function name
+            "entity.other.attribute-name.html",
+          ],
+          "settings": {
+            "fontStyle": "italic"
           }
         },
         {
@@ -391,15 +415,20 @@
     "explorer.enableDragAndDrop": false,
     "editor.multiCursorModifier": "alt",
     // customizations
-    "customizeUI.font.monospace": "Jetbrains Mono",
-    "customizeUI.font.regular": "Jetbrains Mono",
+    "customizeUI.font.monospace": "Office Code Pro Medium",
+    "customizeUI.font.regular": "Office Code Pro Medium",
     "customizeUI.fontSizeMap": {
       "13px": "13px",
       "monospace": "13px"
     },
     "customizeUI.stylesheet": {
-      ".tabs-container .tab": "height: 18px !important",
-      ".tabs": "height: 24px !important",
-      "[aria-label='Editor actions']": "display: none !important;"
+      ".tabs-container .tab": "height: 24px !important; margin-top: -10px !important;",
+      ".tabs": "height: 19px !important",
+      ".tab-actions": "margin-top: 10px !important;",
+      ".title .tabs": "height: 24px !important;",
+      ".tabs-container": "height: 24px !important;",
+      "[aria-label='Editor actions']": "display: none !important;",
+      ".monaco-hover-content": "max-height: 450px !important;",
+      ".monaco-editor-hover .monaco-editor-hover-content": "max-width: 1000px"
     }
   }
