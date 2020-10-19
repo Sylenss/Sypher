@@ -3,7 +3,7 @@
     "author": "Christina Clayton",
     // terminal
     "terminal.integrated.cursorStyle": "block",
-    "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontFamily": "DankMono-Bold",
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.rendererType": "auto",
     "terminal.integrated.scrollback": 1000,
@@ -17,7 +17,7 @@
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.wordWrap": "on",
-    "editor.fontFamily": "Dank Mono",
+    "editor.fontFamily": "DankMono-Bold",
     "editor.fontSize": 18,
     "editor.insertSpaces": true,
     "editor.cursorBlinking": "solid",
@@ -220,7 +220,6 @@
         {
           "name": "Types",
           "scope": [
-            "entity.name.type.class", //class names
 			    	"keyword", //import, export, return…
 				    "constant", //String, Number, Boolean…, this, super
             "storage.modifier", //static keyword
@@ -246,7 +245,8 @@
         {
           "name": "Css Percentage",
           "scope": [
-            "entity.other.keyframe-offset.percentage.css"
+            "entity.other.keyframe-offset.percentage.css",
+            "constant.language"
           ],
           "settings": {
             "foreground": "#e7e68e"
@@ -346,6 +346,43 @@
           ],
           "settings": {
             "foreground": "#d99b21"
+          }
+        },
+
+        //JS Code
+        //CB9826
+        {
+          "name": "Variables and Constants",
+          "scope": [
+            "variable.other.readwrite.js",
+            "variable.other.constant, variable.other.enummember",
+            "support.variable.js",
+            "support.class"
+          ],
+          "settings": {
+            "foreground": "#4C7A96"
+          }
+        },
+        {
+          "name": "Js Property",
+          "scope": [
+            "variable.other.property.js",
+            "variable.other.object.property.js",
+            "support.variable.property.js",
+            "support.variable.property"
+          ],
+          "settings": {
+            "foreground": "#CB9826"
+          }
+        },
+        {
+          "name": "Js Function",
+          "scope": [
+            "support.function",
+
+          ],
+          "settings": {
+            "foreground": "#5198A0"
           }
         },
         //HTML Code
