@@ -71,7 +71,7 @@
       "dropdown.background": "#1b2229",
       "dropdown.foreground": "#fcf998",
       "dropdown.border": "#1b2229",
-      "dropdown.listBackground": "#1b2229",
+      "dropdown.listBackground": "#1e2b3a",
       "descriptionForeground": "#9b863e",
       "diffEditor.insertedTextBackground": "#9b863e",
       "diffEditor.insertedTextBorder": "#1b2229",
@@ -452,8 +452,8 @@
     "explorer.enableDragAndDrop": false,
     "editor.multiCursorModifier": "alt",
     // customizations
-    "customizeUI.font.monospace": "Office Code Pro Medium",
-    "customizeUI.font.regular": "Office Code Pro Medium",
+    "customizeUI.font.monospace": "Jetbrains Mono",
+    "customizeUI.font.regular": "Jetbrains Mono",
     "customizeUI.fontSizeMap": {
       "13px": "13px",
       "monospace": "13px"
