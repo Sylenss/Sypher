@@ -3,7 +3,7 @@
     "author": "Christina Clayton",
     // terminal
     "terminal.integrated.cursorStyle": "block",
-    "terminal.integrated.fontFamily": "DankMono-Bold",
+    "terminal.integrated.fontFamily": "MonoLisa",
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.rendererType": "auto",
     "terminal.integrated.scrollback": 1000,
@@ -17,7 +17,7 @@
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.wordWrap": "on",
-    "editor.fontFamily": "DankMono-Bold",
+    "editor.fontFamily": "MonoLisa",
     "editor.fontSize": 18,
     "editor.insertSpaces": true,
     "editor.cursorBlinking": "solid",
@@ -229,9 +229,6 @@
             "meta.definition.function.js", //function name
             "entity.other.attribute-name.html",
           ],
-          "settings": {
-            "fontStyle": "italic"
-          }
         },
         {
           "name": "Settings String bool",
