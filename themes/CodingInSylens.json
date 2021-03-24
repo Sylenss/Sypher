@@ -212,6 +212,7 @@
           "name": "Settings String Name",
           "scope": [
             "support.type.property-name",
+            "variable.css"
           ],
           "settings": {
             "foreground": "#7f723c"
@@ -301,6 +302,7 @@
             "meta.embedded.block.php",
             "meta.function-call.php",
             "meta.function.php",
+            "punctuation.separator.key-value",
             "entity.other.attribute-name"
 
           ],
@@ -314,10 +316,28 @@
           "meta.object-literal.key"
           ],
           "settings": {
-            "foreground": "#6F79cd"
+            "foreground": "#EE8B4E"
           }
         },
-
+        {
+          "name": "Js Variable Language",
+          "scope": [
+          "variable.language"
+          ],
+          "settings": {
+            "foreground": "#7AA5FF"
+          }
+        },
+        {
+          "name": "Editor Config Color",
+          "scope": [
+          "keyword",
+          "support.type"
+          ],
+          "settings": {
+            "foreground": "#769AA5"
+          }
+        },
         {
           "name": "Enumerator",
           "scope": [
