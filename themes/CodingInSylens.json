@@ -22,7 +22,7 @@
     "editor.insertSpaces": true,
     "editor.cursorBlinking": "solid",
     "editor.rulers": [
-      114
+      80
     ],
     "editor.minimap.enabled": false,
     "editor.fontLigatures": true,
@@ -284,6 +284,9 @@
             "punctuation.terminator.statement.js",
             "punctuation.section.keyframes.begin.bracket.curly.css",
             "punctuation.section.keyframes.end.bracket.curly.css",
+            "punctuation.definition.class.begin.bracket.curly.php",
+            "punctuation.definition.class.end.bracket.curly.php",
+
             "punctuation.accessor.js"
           ],
           "settings": {
@@ -294,12 +297,27 @@
           "name": "Global/Local Variables",
           "scope": [
             "variable.other.global",
-            "variable.other.local"
+            "variable.other.local",
+            "meta.embedded.block.php",
+            "meta.function-call.php",
+            "meta.function.php",
+            "entity.other.attribute-name"
+
           ],
           "settings": {
             "foreground": "#a77822"
           }
         },
+        {
+          "name": "Js Object Literal Keys",
+          "scope": [
+          "meta.object-literal.key"
+          ],
+          "settings": {
+            "foreground": "#6F79cd"
+          }
+        },
+
         {
           "name": "Enumerator",
           "scope": [
@@ -417,7 +435,8 @@
             "support.constant.property-value.css",
             "constant.other.color.rgb-value.hex.css",
             "keyword.other.unit.s.css",
-            "entity.other.attribute-name.pseudo-class.css"
+            "entity.other.attribute-name.pseudo-class.css",
+            "keyword.operator"
           ],
           "settings": {
             "foreground": "#D1B24A"
@@ -430,6 +449,15 @@
           ],
           "settings": {
             "foreground": "#AAAB6F"
+          }
+        },
+        {
+          "name": "Php inherit Class Entity",
+          "scope": [
+            "entity.other.inherited-class",
+          ],
+          "settings": {
+            "foreground": "#ee8b4e"
           }
         },
       ]
