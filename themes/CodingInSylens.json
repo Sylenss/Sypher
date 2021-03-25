@@ -20,6 +20,7 @@
     "editor.fontFamily": "MonoLisa",
     "editor.fontSize": 18,
     "editor.insertSpaces": true,
+    "editor.tabCompletion": "on",
     "editor.cursorBlinking": "solid",
     "editor.rulers": [
       80
@@ -216,6 +217,15 @@
           ],
           "settings": {
             "foreground": "#7f723c"
+          }
+        },
+        {
+          "name": "Php Storage Modifers",
+          "scope": [
+           "storage.modifier"
+          ],
+          "settings": {
+            "foreground": "#747ebe"
           }
         },
         {
