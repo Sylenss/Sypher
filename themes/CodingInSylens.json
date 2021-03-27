@@ -23,7 +23,7 @@
     "editor.tabCompletion": "on",
     "editor.cursorBlinking": "solid",
     "editor.rulers": [
-      80
+      90
     ],
     "editor.minimap.enabled": false,
     "editor.fontLigatures": true,
@@ -219,6 +219,7 @@
             "foreground": "#7f723c"
           }
         },
+        //Php Code Scheme
         {
           "name": "Php Storage Modifers",
           "scope": [
@@ -226,6 +227,15 @@
           ],
           "settings": {
             "foreground": "#747ebe"
+          }
+        },
+        {
+          "name": "Php inherit Class Entity",
+          "scope": [
+            "entity.other.inherited-class",
+          ],
+          "settings": {
+            "foreground": "#ee8b4e"
           }
         },
         {
@@ -285,7 +295,7 @@
         {
           "name": "Type",
           "scope": [
-            "entity.name.type",
+            "entity.name",
             "punctuation.section.property-list.begin.bracket.curly.css",
             "punctuation.section.property-list.end.bracket.curly.css",
             "punctuation.section.function.begin.bracket.round.css",
@@ -358,7 +368,7 @@
             "punctuation.definition.parameters.end.c",
             "punctuation.section.parens.begin.bracket.round.c",
             "punctuation.section.parens.end.bracket.round.c",
-            //JS Punctaution
+            //JS Punctuation
             "meta.brace.round.js",
             "punctuation.definition.parameters.begin.js",
             "punctuation.definition.parameters.end.js",
@@ -373,6 +383,15 @@
           ],
           "settings": {
             "foreground": "#a77822"
+          }
+        },
+        {
+          "name": "Js Entity Name Class",
+          "scope": [
+            "entity.name.type.class"
+          ],
+          "settings": {
+            "foreground": "#33736A"
           }
         },
         {
@@ -393,9 +412,6 @@
             "foreground": "#d99b21"
           }
         },
-
-        //JS Code
-        //CB9826
         {
           "name": "Variables and Constants",
           "scope": [
@@ -481,15 +497,6 @@
             "foreground": "#AAAB6F"
           }
         },
-        {
-          "name": "Php inherit Class Entity",
-          "scope": [
-            "entity.other.inherited-class",
-          ],
-          "settings": {
-            "foreground": "#ee8b4e"
-          }
-        },
       ]
     },
     // other stuff
@@ -522,5 +529,4 @@
       "[aria-label='Editor actions']": "display: none !important;",
       ".monaco-hover-content": "max-height: 450px !important;",
       ".monaco-editor-hover .monaco-editor-hover-content": "max-width: 1000px"
-    }
-  }
+    },
