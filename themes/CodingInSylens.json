@@ -54,7 +54,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.sideBar.location": "left",
   "workbench.panel.defaultLocation": "right",
-  "workbench.activityBar.visible": false,
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": false,
   "workbench.colorCustomizations": {
@@ -110,7 +109,7 @@
     "editorSuggestWidget.highlightForeground": "#53fd81",
     "editorWhitespace.foreground": "#9b863e",
     "editorWidget.background": "#1b2229",
-    "editorWidget.border": "#1b2229",
+    "editorWidget.border": "#9b853e71",
     "editorWidget.foreground": "#9b863e",
     "editorGutter.addedBackground": "#587c0c",
     "editorGutter.background": "#1b2229",
