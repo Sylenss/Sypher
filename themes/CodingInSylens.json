@@ -64,14 +64,15 @@
     "activityBarBadge.foreground": "#9b863e",
     "activityBar.activeBorder": "#9b863e",
     "foreground": "#9b863e",
+    "focusBorder": "#9b853e48",
     "button.background": "#1b2229",
     "button.foreground": "#9b863e",
     "button.hoverBackground": "#7877486b",
     "badge.background": "#1b2229",
     "badge.foreground": "#9b863e",
     "dropdown.background": "#1b2229",
-    "dropdown.foreground": "#fcf998",
-    "dropdown.border": "#1b2229",
+    "dropdown.foreground": "#9b863e",
+    "dropdown.border": "#9b853e56",
     "dropdown.listBackground": "#1b2229",
     "descriptionForeground": "#9b863e",
     "diffEditor.insertedTextBackground": "#9b863e",
@@ -115,7 +116,7 @@
     "editorGutter.commentRangeForeground": "#9b863e",
     "editorGutter.deletedBackground": "#9b863e",
     "editorGutter.modifiedBackground": "#0c7d9d",
-    "input.placeholderForeground": "#a6a6a6",
+    "input.placeholderForeground": "#9b863e",
     "list.activeSelectionBackground": "#1e2b3a",
     "list.activeSelectionForeground": "#9b863e",
     "list.dropBackground": "#383b3d",
@@ -184,7 +185,7 @@
     "welcomePage.buttonHoverBackground": "#1e2b3a52",
     "welcomePage.buttonBackground": "#1b2229",
     "panelTitle.activeBorder": "#1b2229",
-    "panelTitle.activeForeground": "#fcf998",
+    "panelTitle.activeForeground": "#d89237",
     "panelTitle.inactiveForeground": "#787748",
     "terminal.ansiBlack": "#292A44",
     "terminal.ansiBlue": "#ed8b27",
@@ -545,5 +546,6 @@
     "[aria-label='Editor actions']": "display: none !important;",
     ".monaco-hover-content": "max-height: 450px !important;",
     ".monaco-editor-hover .monaco-editor-hover-content": "max-width: 1000px"
-  }
+  },
+  "workbench.statusBar.visible": false
 }
