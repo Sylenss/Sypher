@@ -20,7 +20,7 @@
   "editor.detectIndentation": false,
   "editor.wordWrap": "on",
   "editor.fontFamily": "MonoLisa",
-  "editor.fontSize": 20,
+  "editor.fontSize": 19.5,
   "editor.insertSpaces": true,
   "editor.tabCompletion": "on",
   "editor.cursorBlinking": "solid",
@@ -531,8 +531,8 @@
   "explorer.enableDragAndDrop": false,
   "editor.multiCursorModifier": "alt",
   // customizations
-  "customizeUI.font.monospace": "Jetbrains Mono",
-  "customizeUI.font.regular": "Jetbrains Mono",
+  "customizeUI.font.monospace": "OfficeCodePro-Medium",
+  "customizeUI.font.regular": "OfficeCodePro-Medium",
   "customizeUI.fontSizeMap": {
     "13px": "16px",
     "monospace": "13px"
@@ -547,5 +547,6 @@
     ".monaco-hover-content": "max-height: 450px !important;",
     ".monaco-editor-hover .monaco-editor-hover-content": "max-width: 1000px"
   },
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
 }
