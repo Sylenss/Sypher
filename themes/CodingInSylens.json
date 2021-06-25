@@ -5,7 +5,6 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.fontFamily": "MonoLisa",
   "terminal.integrated.fontSize": 18,
-  "terminal.integrated.rendererType": "auto",
   "terminal.integrated.scrollback": 1000,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.windowsEnableConpty": false,
@@ -624,7 +623,7 @@
           "meta.image string"
         ],
         "settings": {
-          "foreground": "#60c0d2"
+          "foreground": "#4E6178"
         } // "Literals (String)"
       },
       {
@@ -634,7 +633,7 @@
           "meta.image markup.underline.link"
         ],
         "settings": {
-          "foreground": "#588e9a"
+          "foreground": "#4277A3"
         } // "Literals (String)" - 1
       },
       {
@@ -652,7 +651,7 @@
           "markup.list markup.list markup.list markup.list meta.image punctuation"
         ],
         "settings": {
-          "foreground": "#4a6269"
+          "foreground": "#4E6178"
         } //  "Literals (String)" - 2
       },
       // List identations.
