@@ -155,6 +155,7 @@
     "menu.selectionBackground": "#1b2229",
     "menubar.selectionForeground": "#1e2b3a",
     "menubar.selectionBorder": "#9b863e",
+    //Notification bar colors for the status bar item
     "notifications.background": "#1b2229",
     "notifications.foreground": "#9b863e",
     "notificationCenter.border": "#9b863e",
