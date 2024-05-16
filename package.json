@@ -1,0 +1,32 @@
+{
+  "name": "sypher",
+  "displayName": "Sypher",
+  "description": "A militaristic deciphered color Visual Studio Code theme. ",
+  "version": "0.0.1",
+  "publisher": "Sypher",
+  "author": {
+    "name": "Christina Clayton"
+  },
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+   "keywords": [
+    "futuristic",
+    "militaristic",
+    "minimalistic",
+    "engimatic",
+    "hi-tech"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sypher",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sypher-color-theme.json"
+      }
+    ]
+  }
+}
