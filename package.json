@@ -1,7 +1,7 @@
 {
   "name": "sypher",
   "displayName": "Sypher",
-  "description": "A militaristic deciphered color Visual Studio Code theme. ",
+  "description": "A deciphered, militaristic color Visual Studio Code theme.",
   "version": "0.0.1",
   "publisher": "Sypher",
   "author": {
@@ -18,7 +18,7 @@
     "militaristic",
     "minimalistic",
     "engimatic",
-    "hi-tech"
+    "modernistic"
   ],
   "contributes": {
     "themes": [
