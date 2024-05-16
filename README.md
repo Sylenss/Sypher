@@ -6,9 +6,9 @@
 
 <p align="center"> <img src="./assets/ui-overview-php.png"/><p>
 
-#### Quick Start
+### Quick Start
 
-Thanks to the official [VS Code Extension Marketplace][vscode-extmarket-home], _Sypher_ Visual Studio Code\_ can be installed with one click.
+Thanks to the official [VS Code Extension Marketplace][vscode-extmarket-home], _Sypher Visual Studio Code_ can be installed with one click.
 
 Open the [extension marketplace][vscode-docs-extmarket] by clicking on the _Extensions_ icon in the [_Activity Bar_][vscode-docs-ui-actbar]. Search for `Sypher` and click on the <kbd>Install</kbd> button.
 
