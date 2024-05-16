@@ -10,7 +10,7 @@
 
 Thanks to the official [VS Code Extension Marketplace][vscode-extmarket-home], _Sypher Visual Studio Code_ can be installed with one click.
 
-Open the <a href="https://code.visualstudio.com/docs/editor/extension-gallery" rel="nofollow">extension marketplace</a> by clicking on the <em> Extension</em> icon in the<a href="https://code.visualstudio.com/docs/getstarted/userinterface#_activity-bar" rel="nofollow"><em>Activity Bar</em></a>. Search for `Sypher` and click on the <kbd>Install</kbd> button.
+Open the <a href="https://code.visualstudio.com/docs/editor/extension-gallery" rel="nofollow">extension marketplace</a> by clicking on the <em> Extension</em> icon in the<a href="https://code.visualstudio.com/docs/getstarted/userinterface#_activity-bar" rel="nofollow"> <em>Activity Bar</em></a>. Search for `Sypher` and click on the <kbd>Install</kbd> button.
 
 #### Activation
 
