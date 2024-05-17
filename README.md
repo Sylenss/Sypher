@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://www.nordtheme.com" target="_blank">
     <picture>
-      <source srcset="/assets/Sypher-Hero-Icon.png" width="100%" media="(prefers-color-scheme: light)" />
-      <source srcset="/assets/Sypher-Hero-Icon.png" width="100%" media="(prefers-color-scheme: dark)" />
-      <img src="/assets/Sypher-Hero-Icon.png" width="100%" />
+      <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: light)" />
+      <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
+      <img src="/assets/Sypher-Icon.svg" width="100%" />
     </picture>
   </a>
 </p>
