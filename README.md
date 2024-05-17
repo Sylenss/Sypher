@@ -30,6 +30,6 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
   </picture>
 </p>
 
-#### Features
+## Features
 
 <p align="center"> Deciphered colors
