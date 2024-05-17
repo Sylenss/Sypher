@@ -1,8 +1,8 @@
 <p align="center">
     <picture>
-      <source srcset="/assets/Sypher-Icon.png" width="100%" media="(prefers-color-scheme: light)" />
-      <source srcset="/assets/Sypher-Icon.png" width="100%" media="(prefers-color-scheme: dark)" />
-      <img src="/assets/Sypher-Icon.png" width="100%" />
+      <source srcset="/assets/ui-hero-icon.svg" width="100%" media="(prefers-color-scheme: light)" />
+      <source srcset="/assets/ui-hero-icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
+      <img src="/assets/ui-hero-icon.svg" width="100%" />
     </picture>
 </p>
 
@@ -26,7 +26,7 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 <p align="center">
   <picture>
-    <img src="./assets/ui-color-theme-selected.png"/>
+    <img src="./assets/ui-color-theme-select.svg"/>
   </picture>
 </p>
 
