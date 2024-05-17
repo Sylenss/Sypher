@@ -37,4 +37,4 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 <p align="center"> <img src="./assets/ui-overview-js.png"></p>
 
-<p align="center"> <img src="./assets/ui-overview-php-01.png"></p>
+<p align="center"> <img src="./assets/ui-overview-php_01.png"></p>
