@@ -42,7 +42,7 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 <p align="center"> The editor's color scheme accommodates numerous programming languages, ranging from built-in definitions to various popular third-party syntax extensions.</p>
 <p align="center"> <img src="./assets/ui-overview-php_01.png"></p>
 
-<p align="center"> Conceptualize a dream within a dream, envisioned into a colorscheme.</p>
+<p align="center"> <strong> Conceptualize a dream within a dream, envisioned into a colorscheme. </strong></p>
 <p align="center"> Syntax highlighting is different depending on the programming language of your choice.</p>
 
 <p align="center"> <img src="./assets/ui-overview-c.png"></p>
