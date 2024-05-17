@@ -32,4 +32,7 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 ## Features
 
-<p align="center"> Deciphered colors
+<p align="center"> <strong>Decipher your brain power, to unleash your creativity.</strong> </p>
+<p align="center"> An integrated UI and syntax element design engenders a fluid, uncluttered aesthetic that seamlessly blends elements together. </p>
+
+<p align="center"> <img src="./assets/ui-overview-js.png"></p>
