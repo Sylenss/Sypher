@@ -18,7 +18,9 @@
     "militaristic",
     "minimalistic",
     "engimatic",
-    "modernistic"
+    "modernistic",
+    "blue",
+    ""
   ],
   "contributes": {
     "themes": [
