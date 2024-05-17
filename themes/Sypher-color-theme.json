@@ -239,8 +239,15 @@
       }
     },
     {
-      "name": " c++ primitive type built-in",
-      "scope": "storage.type.built-in.primitive.c,storage.type.built-in.primitive.cpp,keyword.control.c,storage.type.struct.c,storage.type.enum.c,keyword.control.return.cpp",
+      "name": " c++ storage type built-in",
+      "scope": "storage.modifier.specifier.const.cpp,storage.modifier.specifier.static.cpp,storage.modifier.static.cpp,storage.modifier.specifier.functional.post-parameters.noexcept.cpp,storage.type.modifier.final.cpp,storage.type.modifier.access.public.cpp",
+      "settings": {
+        "foreground": "#AAAB6F"
+      }
+    },
+    {
+      "name": " c/c++ primitive type built-in",
+        "scope": "storage.type.built-in.primitive.c,storage.type.built-in.primitive.cpp,keyword.control.c,storage.type.struct.c,storage.type.enum.c,keyword.control.return.cpp,keyword.control.break.cpp,keyword.control.if.cpp,keyword.control.else.cpp,storage.type.built-in.cpp,keyword.control.for.cpp,storage.type.struct.cpp,keyword.control.while.cpp",
       "settings": {
         "foreground": "#d1b24a"
       }
@@ -262,8 +269,29 @@
       }
     },
     {
-      "name": " c++ keyword operator",
-      "scope": "keyword.operator.c,keyword.operator.cpp,keyword.operator.assignment.c,keyword.operator.assignment.cpp,keyword.operator.comparison.c,keyword.operator.comparison.cpp,keyword.operator.increment.c,storage.modifier.reference.cpp,keyword.operator.assignment.compound.bitwise.c",
+      "name": " c++ storage.modifier.specifier.functional.post-parameters.override.cpp",
+      "scope": "storage.modifier.specifier.functional.post-parameters.override.cpp,storage.modifier.virtual.cpp",
+      "settings": {
+        "foreground": "#7F8D89"
+      }
+    },
+    {
+      "name": " c++ keyword.other.using.directive.cpp",
+      "scope": "keyword.other.using.directive.cpp",
+      "settings": {
+        "foreground": "#7A4E33"
+      }
+    },
+    {
+      "name": " c++ keyword.control.directive.conditional.defined.cpp",
+      "scope": "keyword.control.directive.conditional.defined.cpp",
+      "settings": {
+        "foreground": "#A77822"
+      }
+    },
+    {
+      "name": " c/c++ keyword operator",
+      "scope": "keyword.operator.c,keyword.operator.cpp,keyword.operator.assignment.c,keyword.operator.assignment.cpp,keyword.operator.comparison.c,keyword.operator.comparison.cpp,keyword.operator.increment.c,storage.modifier.reference.cpp,keyword.operator.assignment.compound.bitwise.c,storage.modifier.pointer.cpp,keyword.operator.assignment.compound.bitwise.cpp",
       "settings": {
         "foreground": "#D7BA54"
       }
@@ -580,14 +608,14 @@
     },
     {
       "name": "c/c++ keyword control switch",
-      "scope": "keyword.control.switch.c,keyword.control.case.c,keyword.control.default.c,keyword.control.switch.cpp,keyword.control.case.cpp,keyword.control.default.cpp",
+      "scope": "keyword.control.switch.c,keyword.control.case.c,keyword.control.default.c,keyword.control.switch.cpp,keyword.control.case.cpp,keyword.control.default.cpp,keyword.control.try.cpp,keyword.control.catch.cpp",
      "settings": {
         "foreground": "#a76222"
       }
     },
     {
       "name": "C operator assignment",
-      "scope": "keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
+      "scope": "keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp,keyword.operator.ternary.cpp",
       "settings": {
         "foreground": "#D7BA54"
       }
@@ -879,14 +907,14 @@
     },
     {
       "name": "C/C++ Keyword Control",
-      "scope": "keyword.control.directive.include.c,keyword.control.directive.include.cpp",
+      "scope": "keyword.control.directive.include.c,keyword.control.directive.include.cpp,keyword.control.directive.conditional.if.cpp,keyword.control.directive.endif.cpp,keyword.control.directive.else.cpp",
       "settings": {
         "foreground": "#7a4e33"
       }
     },
     {
       "name": "C string.quoted.other.lt-gt.include, C++ string.quoted.other.lt-gt.include.cpp",
-      "scope": "string.quoted.other.lt-gt.include.c,string.quoted.other.lt-gt.include.cpp",
+      "scope": "string.quoted.other.lt-gt.include.c,string.quoted.other.lt-gt.include.cpp,storage.type.namespace.alias.cpp,storage.type.namespace.directive.cpp,storage.type.namespace.definition.cpp,",
       "settings": {
         "foreground": "#a36944"
       }
@@ -1235,7 +1263,7 @@
     },
     {
       "name": "Escape Characters",
-      "scope": "constant.character.escape",
+      "scope": "constant.character.escape,keyword.other.suffix.literal.user-defined.reserved.string.cpp",
       "settings": {
         "foreground": "#a77822"
       }
