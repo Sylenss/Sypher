@@ -37,6 +37,8 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 <p align="center"> <img src="./assets/ui-overview-js.png"></p>
 
-<p align="center"> <strong> Intelligently structured code for enhanced concentration. <strong> </p>
+<p align="center"> <strong> Intelligently structured code for enhanced concentration. </strong> </p>
+
 <p align="center"> The editor's color scheme accommodates numerous programming languages, ranging from built-in definitions to various popular third-party syntax extensions.</p>
+
 <p align="center"> <img src="./assets/ui-overview-php_01.png"></p>
