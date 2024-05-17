@@ -1,8 +1,8 @@
 <p align="center">
     <picture>
-      <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: light)" />
-      <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
-      <img src="/assets/Sypher-Icon.svg" width="100%" />
+      <source srcset="/assets/Sypher-Hero-Icon.svg" width="100%" media="(prefers-color-scheme: light)" />
+      <source srcset="/assets/Sypher-Hero-Icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
+      <img src="/assets/Sypher-Hero-Icon.svg" width="100%" />
     </picture>
 </p>
 
