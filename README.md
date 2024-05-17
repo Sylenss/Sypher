@@ -1,11 +1,9 @@
 <p align="center">
-  <a href="https://www.nordtheme.com" target="_blank">
     <picture>
       <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: light)" />
       <source srcset="/assets/Sypher-Icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
       <img src="/assets/Sypher-Icon.svg" width="100%" />
     </picture>
-  </a>
 </p>
 
 <p align="center"><a href="https://code.visualstudio.com/updates/v1_12" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.12.0&logo=visual-studio-code&logoColor=a77822&colorA=1b2229&colorB=a77822"/></a></p>
