@@ -37,5 +37,5 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 <p align="center"> <img src="./assets/ui-overview-js.png"></p>
 
-<p align="center"> Intelligently structured code for enhanced concentration</p>
+<p align="center"> <strong> Intelligently structured code for enhanced concentration <strong> </p>
 <p align="center"> <img src="./assets/ui-overview-php_01.png"></p>
