@@ -1,26 +1,37 @@
 {
-  "name": "sypher",
+  "name": "sypher-visual-studio-code",
   "displayName": "Sypher",
   "description": "A deciphered, militaristic color Visual Studio Code theme.",
   "version": "0.0.1",
-  "publisher": "Sypher",
+  "publisher": "CodingInSylens",
   "author": {
-    "name": "Christina Clayton"
+    "name": "Christina Clayton",
+    "email": "codinginsylens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sylenss/Sypher"
   },
   "engines": {
+    "node": ">=15.13",
+    "npm": ">=7.7",
     "vscode": "^1.83.0"
   },
+  "icon": "assets/extension-marketplace-icon.png",
+  "markdown": "github",
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#1b2229",
+    "theme": "dark"
+  },
    "keywords": [
     "futuristic",
     "militaristic",
-    "minimal",
+    "minimalistic",
     "engimatic",
-    "modern",
-    "blue",
-    "dark theme"
+    "modernistic"
     ],
   "contributes": {
     "themes": [

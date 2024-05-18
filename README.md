@@ -26,7 +26,7 @@ To activate the theme click on the gear icon in the _Activity Bar_ and select _C
 
 <p align="center">
   <picture>
-    <img src="./assets/ui-color-theme-select.svg"/>
+    <img src="./assets/ui-color-theme-select.png"/>
   </picture>
 </p>
 

@@ -247,7 +247,7 @@
     },
     {
       "name": " c/c++ primitive type built-in",
-        "scope": "storage.type.built-in.primitive.c,storage.type.built-in.primitive.cpp,keyword.control.c,storage.type.struct.c,storage.type.enum.c,keyword.control.return.cpp,keyword.control.break.cpp,keyword.control.if.cpp,keyword.control.else.cpp,storage.type.built-in.cpp,keyword.control.for.cpp,storage.type.struct.cpp,keyword.control.while.cpp",
+        "scope": "storage.type.built-in.primitive.c,storage.type.built-in.primitive.cpp,keyword.control.c,storage.type.struct.c,storage.type.enum.c,keyword.control.return.cpp,keyword.control.break.cpp,keyword.control.if.cpp,keyword.control.else.cpp,storage.type.built-in.cpp,keyword.control.for.cpp,storage.type.struct.cpp,keyword.control.while.cpp,storage.type.template.cpp,storage.type.template.argument.class.cpp",
       "settings": {
         "foreground": "#d1b24a"
       }
