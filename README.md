@@ -1,8 +1,6 @@
 <p align="center">
     <picture>
-      <source srcset="/assets/ui-hero-icon.svg" width="100%" media="(prefers-color-scheme: light)" />
-      <source srcset="/assets/ui-hero-icon.svg" width="100%" media="(prefers-color-scheme: dark)" />
-      <img src="/assets/ui-hero-icon.svg" width="100%" />
+      <img src="/assets/sypher-marketplace-icon.png"/>
     </picture>
 </p>
 

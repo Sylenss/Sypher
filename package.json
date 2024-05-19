@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/Sylenss/Sypher"
   },
+  "license": "MIT",
   "engines": {
     "node": ">=15.13",
     "npm": ">=7.7",
